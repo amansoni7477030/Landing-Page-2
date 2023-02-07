@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-bottom: 40px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.about-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* Special logo for create account and login option */
+a.create-account-logo {
+  background-image: url('https://www.nicepng.com/png/detail/257-2579139_create-an-account-with-acudeen-technologies-create-account.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+a.create-account-logo:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+a.login-logo {
+  background-image: url('https://banner2.cleanpng.com/20180426/lwq/kisspng-computer-icons-login-management-user-5ae155f3386149.6695613615247170432309.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+a.login-logo:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
